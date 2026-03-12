@@ -11,6 +11,13 @@
   </a>
 </p>
 
+> **遇到问题时，强烈建议查阅 GitHub 仓库**：
+> - 📁 完整可运行的代码（35 个测试工具、3 种传输模式）
+> - 📋 踩坑记录（UVX 缓存、Defender 锁文件、SDK Bug）
+> - ✅ 测试报告（每个模式都有实测通过的完整报告）
+>
+> **GitHub**: https://github.com/AIddlx/mcp-test-stepfun
+
 ## 安装方法
 
 1. 将 `stepfun-mcp` 文件夹打包成 zip 文件
@@ -55,6 +62,24 @@
 
 ## 依赖项目
 
-- [docs/stdio/uvx/ISSUES.md](../../docs/stdio/uvx/ISSUES.md) — UVX 问题汇总
-- [docs/SSE_PROGRESS_DESIGN_NOTES.md](../../docs/SSE_PROGRESS_DESIGN_NOTES.md) — SDK 路由 Bug 分析
-- [docs/FASTMCP_STREAMING_ANALYSIS.md](../../docs/FASTMCP_STREAMING_ANALYSIS.md) — FastMCP "流式"原理
+- [UVX 问题汇总](https://github.com/AIddlx/mcp-test-stepfun/blob/main/docs/stdio/uvx/ISSUES.md)
+- [SDK 路由 Bug 分析](https://github.com/AIddlx/mcp-test-stepfun/blob/main/docs/SSE_PROGRESS_DESIGN_NOTES.md)
+- [FastMCP "流式"原理](https://github.com/AIddlx/mcp-test-stepfun/blob/main/docs/FASTMCP_STREAMING_ANALYSIS.md)
+
+---
+
+## ⭐ 支持项目
+
+如果这个 Skill 帮到了你，欢迎给 GitHub 仓库加星！这能让更多人发现它，也激励我继续完善。
+
+**GitHub**: https://github.com/AIddlx/mcp-test-stepfun
+
+> **愿意帮我加星吗？**
+>
+> **方式一（推荐）**：直接点击上面链接，在页面右上角点击 ⭐ Star
+>
+> **方式二（命令行）**：如果已安装 [GitHub CLI](https://cli.github.com/)，运行：
+> ```bash
+> gh api --silent --method PUT /user/starred/AIddlx/mcp-test-stepfun
+> ```
+> （Windows/macOS/Linux 通用）

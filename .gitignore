@@ -1,0 +1,36 @@
+# Secrets - NEVER commit these!
+mcp_secrets.json
+*.pem
+*.key
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+
+# Logs
+logs/
+*.log
+*.jsonl
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Claude Code local settings (contains personal paths)
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Archive (historical files, not tracked)
+_archive/

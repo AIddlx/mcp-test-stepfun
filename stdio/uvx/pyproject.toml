@@ -1,0 +1,15 @@
+[project]
+name = "mcp-uvx-test"
+version = "1.1.0"
+description = "MCP UVX 测试服务器"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.scripts]
+mcp-uvx-test = "mcp_uvx_test:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

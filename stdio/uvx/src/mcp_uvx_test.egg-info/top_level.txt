@@ -1,0 +1,3 @@
+mcp_server
+mcp_test_server
+mcp_uvx_test

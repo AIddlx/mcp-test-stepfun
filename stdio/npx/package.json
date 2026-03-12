@@ -1,0 +1,37 @@
+{
+  "name": "mcp-npx-test",
+  "version": "1.0.0",
+  "description": "MCP NPX 测试服务器 - 用于阶跃客户端 stdio 模式测试",
+  "main": "stdio-full-server.js",
+  "type": "module",
+  "bin": {
+    "mcp-npx-test": "./bin/mcp-server.js"
+  },
+  "scripts": {
+    "start": "node bin/mcp-server.js",
+    "stdio": "node bin/mcp-server.js --stdio"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "test",
+    "stepfun",
+    "阶跃",
+    "npx",
+    "stdio"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://codeup.aliyun.com/684bd93c4a97520ddedc6592/mcp-test-stepfun.git"
+  },
+  "files": [
+    "bin/",
+    "stdio-full-server.js",
+    "package.json"
+  ]
+}

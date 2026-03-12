@@ -1,0 +1,24 @@
+{
+  "name": "mcp-npx-sdk",
+  "version": "1.0.0",
+  "description": "MCP 测试服务器 - NPX 传输 (官方 TypeScript SDK)",
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "mcp-npx-sdk": "dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsc && node dist/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": ["mcp", "test", "sdk"],
+  "license": "MIT"
+}

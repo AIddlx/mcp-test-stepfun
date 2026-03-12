@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: mcp-uvx-test
+Version: 1.1.0
+Summary: MCP UVX 测试服务器
+Requires-Python: >=3.10
+Requires-Dist: mcp>=1.0.0

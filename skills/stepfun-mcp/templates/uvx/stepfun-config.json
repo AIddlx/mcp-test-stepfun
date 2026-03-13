@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "my-mcp-server": {
-      "command": "uvx",
-      "args": ["--from", "C:/path/to/my-mcp-server", "my-mcp-server"]
-    }
-  }
-}

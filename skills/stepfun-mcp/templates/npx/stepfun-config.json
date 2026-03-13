@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "my-mcp-server": {
-      "command": "npx",
-      "args": ["-y", "C:/path/to/my-mcp-server"]
-    }
-  }
-}
